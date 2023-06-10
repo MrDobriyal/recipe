@@ -1,0 +1,28 @@
+.recipe{
+border-top: none;
+border-bottom: 2px solid black;
+}
+
+.recipe:last-child{border-bottom: none;}
+
+.recipe_heading{font-size: 40px;
+overflow-x: auto;
+}
+
+.recipe_header{
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+
+}
+
+.mg{margin:20px;
+}
+
+.instructions_newLine{
+padding-top: 4px;
+ white-space:pre-wrap;
+ overflow-x: auto;
+}
+
+.mg-2{margin-right: 3px;}

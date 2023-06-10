@@ -1,0 +1,31 @@
+@import 'RecipeList.css';
+@import 'Recipe.css';
+@import 'RecipeEdit.css';
+@import 'Ingredients.css';
+@import 'Button.css';
+*,::after,::before{margin:0;
+    padding:0;
+  box-sizing: border-box;
+ 
+}
+
+@media screen and (max-width:530px){
+  .recipeEdit__ingredients_grid{display: inline;
+
+  }
+  .recipeEdit__grid{display:flex;
+  flex-direction: column;
+  margin: 10px;
+  }
+  .recipe_heading{font-size:16px;
+  font-weight: bolder;
+  }
+  .recipeEdit__input{margin:10px;}
+
+  .ingredients{margin: 10px;}
+
+  .recipeEdit__ingredients_grid{display: flex;
+  flex-direction: column;
+  margin:10px;
+  }
+}

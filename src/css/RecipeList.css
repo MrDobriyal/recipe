@@ -1,0 +1,7 @@
+.recipe_list{ 
+width: 50%;
+height: 100%;
+border-right:2px solid black;
+}
+
+.recipeLIst:last-child{border-bottom: none;}

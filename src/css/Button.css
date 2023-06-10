@@ -1,0 +1,32 @@
+.btn_center{
+margin: auto;   
+background-color: green; 
+}
+
+.btn{border:2px solid black;
+    background: none;
+    padding:5px;
+    border-radius: 11px;
+    color: white;
+    font-size: 20px;
+    }
+
+    .btn_danger{
+        background-color: hsl(0, 98%, 49%);
+    
+    }
+
+    .btn_primary{background-color:hsl(192, 98%, 50%);}
+
+    .btn__center{
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    }
+
+    .btn_close{text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+   
+    }
